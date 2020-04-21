@@ -1,0 +1,644 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue Apr 21 17:53:18 2020
+| Host         : DESKTOP-2HQ1RBR running 64-bit major release  (build 9200)
+| Command      : report_methodology -file nexys4_top_methodology_drc_routed.rpt -pb nexys4_top_methodology_drc_routed.pb -rpx nexys4_top_methodology_drc_routed.rpx
+| Design       : nexys4_top
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 121
++-----------+------------------+------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                          | Violations |
++-----------+------------------+------------------------------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                          | 117        |
+| LUTAR-1   | Warning          | LUT drives async reset alert                         | 3          |
+| XDCC-4    | Warning          | User Clock constraint overwritten with the same name | 1          |
++-----------+------------------+------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/gupdff.updff/y1.q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr1_reg[done_sync1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr1_reg[qual_rdata]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr1_reg[run]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[addrlo][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tnr2_reg[data][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr1_reg[datashft0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr1_reg[done_sync]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr1_reg[holdn]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr1_reg[inshift]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr1_reg[prun]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[addr][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin ahbjtag0/newcom.jtagcom0/tpr2_reg[datashft][9]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell ddrc/ddrc/ddrc/FSM_onehot_dr[cmds][10]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) ddrc/ddrc/ddrc/dr_reg[cfg][cke]/CLR, ddrc/ddrc/ddrc/dr_reg[sdo_odt]/CLR, ddrc/ddrc/ddrc/dr_reg[sdo_bdrive]/PRE, ddrc/ddrc/ddrc/dr_reg[sdo_qdrive]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell ddrc/nftphy.ddr_phy0/ddr_phy0/seppads.phywop/xc4v.ddr_phy0/ddr_rst_gen[3]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) ddrc/ddr_rst_gen_reg[0]/CLR, ddrc/ddr_rst_gen_reg[1]/CLR, ddrc/ddr_rst_gen_reg[2]/CLR, ddrc/ddr_rst_gen_reg[3]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell ddrc/nftphy.ddr_phy0/ddr_phy0/seppads.phywop/xc4v.ddr_phy0/dllrst0, with 2 or more inputs, drives asynchronous preset/clear pin(s) ddrc/nftphy.ddr_phy0/ddr_phy0/seppads.phywop/xc4v.ddr_phy0/dllrst_reg[0]/PRE, ddrc/nftphy.ddr_phy0/ddr_phy0/seppads.phywop/xc4v.ddr_phy0/dllrst_reg[1]/PRE, ddrc/nftphy.ddr_phy0/ddr_phy0/seppads.phywop/xc4v.ddr_phy0/dllrst_reg[2]/PRE, ddrc/nftphy.ddr_phy0/ddr_phy0/seppads.phywop/xc4v.ddr_phy0/dllrst_reg[3]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+XDCC-4#1 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports sys_clk_i] (Source: E:/525.612/Needles_LEON3/Needles_LEON3/Needles_LEON3.srcs/constrs_1/imports/project_leon3/nexys4_top.xdc (Line: 14))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports sys_clk_i] (Source: E:/525.612/Needles_LEON3/Needles_LEON3/Needles_LEON3.srcs/constrs_1/imports/leon3-digilent-nexys4ddr/leon3mp.xdc (Line: 14))
+Related violations: <none>
+
+

@@ -1,5 +1,13 @@
+/* helloworld-bare.c
+ *
+ * Tests rtems and io functionality
+ *
+ * Anthony Needles
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 #define ioread32(baseaddr, offset) \
     (*((volatile uint32_t*)(baseaddr + offset)))
@@ -9,27 +17,27 @@
 
 #define LED_REG (0x80000900)
 
-void wait_cycles(unsigned cycles) 
+void wait_cycles(unsigned cycles)
 {
-    unsigned i = 0;
+    volatile unsigned i = 0;
     while (i < cycles) {
         ++i;
     }
 }
 
-int main(void) 
+int main(void)
 {
     unsigned led_val = 0;
 
-    printf("reeeeeeeeee\n");
+    printf("Bare-metal program\n");
 
     while (1) {
         iowrite32(LED_REG, 0, led_val);
-        wait_cycles(7000000);
+        wait_cycles(700000);
         if (led_val < 65535) {
             led_val++;
         } else {
             led_val = 0;
         }
-    }        
+    }
 }
